@@ -16,17 +16,3 @@ Proyek ini dibangun menggunakan **Python** dengan memanfaatkan teknologi *Comput
 * **[OpenCV](https://opencv.org/)** - Untuk mengakses webcam dan memproses *frame* video.
 * **[MediaPipe](https://developers.google.com/mediapipe)** - Model AI (Machine Learning) yang mendeteksi dan melacak *landmark* tangan.
 * **[PyAutoGUI](https://pyautogui.readthedocs.io/)** - Untuk melakukan otomatisasi penekanan tombol *keyboard*.
-
----
-
-## 💻 Panduan Instalasi (Untuk Developer)
-
-Jika Anda ingin mencoba menjalankan kode sumber (*source code*) proyek ini di komputer Anda sendiri, ikuti langkah-langkah berikut:
-
-### 1. Persiapan Kelengkapan
-Pastikan Anda sudah menginstal **Python (disarankan versi 3.11)**.
-
-### 2. Unduh Proyek Ini
-Kloning repository ini ke komputer Anda melalui Terminal/Command Prompt:
-```bash
-git clone [https://github.com/USERNAME_GITHUB_ANDA/NAMA_REPOSITORY_ANDA.git](https://github.com/USERNAME_GITHUB_ANDA/NAMA_REPOSITORY_ANDA.git)
