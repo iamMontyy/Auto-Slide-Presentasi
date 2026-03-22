@@ -12,7 +12,7 @@ mp_draw = mp.solutions.drawing_utils
 waktu_jeda = 1.5  
 waktu_terakhir_aksi = 0
 
-# Menyalakan Kamera
+
 cap = cv2.VideoCapture(0)
 print("Sistem Auto Slide Aktif! Buka PowerPoint Anda. Tekan 'q' di layar kamera untuk keluar.")
 
