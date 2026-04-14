@@ -14,7 +14,7 @@ waktu_terakhir_aksi = 0
 
 
 cap = cv2.VideoCapture(0)
-print("Sistem Auto Slide Aktif! Buka PowerPoint Anda. Tekan 'q' di layar kamera untuk keluar.")
+print("Auto Slide Aktif! Buka PowerPoint Anda. Tekan 'q' di layar kamera untuk keluar.")
 
 while True:
     success, img = cap.read()
@@ -25,8 +25,8 @@ while True:
     tinggi_layar, lebar_layar, _ = img.shape 
 
     
-    cv2.line(img, (int(lebar_layar * 0.3), 0), (int(lebar_layar * 0.3), tinggi_layar), (255, 0, 0), 2) 
-    cv2.line(img, (int(lebar_layar * 0.7), 0), (int(lebar_layar * 0.7), tinggi_layar), (0, 255, 0), 2) 
+    cv2.line(img, (int(lebar_layar * 0.3), 0), (int(lebar_layar * 0.3), tinggi_layar), (255, 0, 0), 2) # Garis Kiri Biru
+    cv2.line(img, (int(lebar_layar * 0.7), 0), (int(lebar_layar * 0.7), tinggi_layar), (0, 255, 0), 2) # Garis Kanan Hijau
     
     
     img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
