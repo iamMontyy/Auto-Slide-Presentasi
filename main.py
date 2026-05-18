@@ -2,8 +2,6 @@ import cv2
 import mediapipe as mp
 import pyautogui  
 import time       
-
-
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(max_num_hands=1, min_detection_confidence=0.7)
 mp_draw = mp.solutions.drawing_utils
@@ -14,7 +12,7 @@ waktu_terakhir_aksi = 0
 
 
 cap = cv2.VideoCapture(0)
-print("Auto Slide Aktif! Buka PowerPoint Anda. Tekan 'q' di layar kamera untuk keluar.")
+print("Auto Slide Menyala! Buka PPT. Tekan 'q' di layar kamera untuk keluar.")
 
 while True:
     success, img = cap.read()
