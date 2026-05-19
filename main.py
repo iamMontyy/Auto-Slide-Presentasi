@@ -5,8 +5,6 @@ import time
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(max_num_hands=1, min_detection_confidence=0.7)
 mp_draw = mp.solutions.drawing_utils
-
-
 waktu_jeda = 1.5  
 waktu_terakhir_aksi = 0
 
@@ -56,12 +54,8 @@ while True:
                     pyautogui.press('left') 
                     waktu_terakhir_aksi = waktu_sekarang 
                     cv2.putText(img, "<- PREV", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 3)
-                    print("Geser Kiri (Prev)")
-
-    
+                    print("Geser Kiri (Prev)")    
     cv2.imshow("Auto Slide Presentasi", img)
-
-    
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
