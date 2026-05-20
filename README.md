@@ -1,6 +1,6 @@
 # Tracking Auto Slide Hands Presentasi
 
-Aplikasi inovatif berbasis Kecerdasan Buatan (AI) yang memungkinkan mengontrol slide presentasi hanya dengan menggunakan gerakan tangan (gestur) di depan webcam. Tinggalkan *mouse* atau *clicker* 
+Aplikasi berbasis Kecerdasan Buatan (AI) yang memungkinkan mengontrol slide presentasi hanya dengan menggunakan gerakan tangan (gestur) di depan webcam. Tinggalkan *mouse* atau *clicker* 
 
 Proyek ini dibangun menggunakan **Python** dengan memanfaatkan teknologi *Computer Vision* terkini.
 
