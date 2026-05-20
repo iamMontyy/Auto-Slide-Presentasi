@@ -10,7 +10,7 @@ waktu_terakhir_aksi = 0
 
 
 cap = cv2.VideoCapture(0)
-print("Auto Slide Menyala! Buka PPT. Tekan 'q' di layar kamera untuk keluar.")
+print("Auto Slide Menyala! Buka PPT. Tekan 'q' di layar kamera untuk selesai.")
 
 while True:
     success, img = cap.read()
